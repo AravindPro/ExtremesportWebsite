@@ -1,0 +1,77 @@
+*{
+	font-size: 16px;
+}
+
+nav{
+	display: flexbox;
+	background-color: orange;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+a{
+	margin: 0px 50px;
+	padding: 5px 30px;
+	background-color: crimson;
+	border-radius: 5px;
+	align-items: ;
+	width: fit-content;
+	color: azure;
+	text-decoration: none;
+}
+a:hover{
+	background-color: brown;
+}
+
+section{
+	min-height: 500px;
+	border: 10px solid black;
+	border-left: 0px;
+	border-right: 0px;
+	margin: 10px 0px;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	align-items: center;
+}
+
+#surf{
+	background-image: url('images/surf.jpg');	
+	border-color: rgb(6, 6, 71);
+}
+
+#skate{
+	background-image: url("images/skateboard-barca.jpg");
+}
+
+#bungee{
+	background-image: url("images/bungee-jumping-imagesv2.jpg");
+	border-color: rgb(7, 51, 7);
+}
+
+span{
+	display: table;
+	border-radius: 10px;
+	margin: 10px auto;
+	background-color: rgb(32, 28, 28);
+	width: calc(100% - 800px);
+	padding: 10px 10px;
+}
+
+p{
+	color: aliceblue;
+	font-size: 20px;
+}
+
+h1{
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.head{
+	padding: auto 10px;
+	background-color: dimgray;
+}
